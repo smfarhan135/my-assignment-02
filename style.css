@@ -38,4 +38,78 @@ body {
     padding: 20px;
   }
 
+  #transe {
+    background-color: aliceblue;
+    transition-property: background-color;
+    transition-duration: 10s;
+    transition-delay: 1s;
+  }
+  .heading h1 {
+    font-weight: 900;
+  }
+  .btn {
+    padding: 0.5rem;
+    font-size: 0.6rem;
+    border-radius: 10%;
+    background-color: coral;
+  }
+  .banner img {
+    width: 100%;
+    padding: 1%;
+    height: 70%;
+  }
+  /* Feature list design */
+  .quickfeature {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+  }
+  .quickfeature div {
+    width: 50%;
+  }
+  .quickfeatureimages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .quickfeatureimages img {
+    width: 95%;
+    padding: 4%;
+  }
+  .quickfeatureinfo {
+    padding: 5%;
+    align-items: center;
+    margin: auto 0;
+  }
+  .Allfeatures {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+  }
+  .featuresList {
+    width: 50%;
+    margin: auto 0;
+  }
+  .featuresheading {
+    margin-bottom: 30px;
+  }
+  .featuresheading h1 {
+    font-size: 35px;
+    color: brown;
+  }
+  .featuresList div {
+    margin: 3%;
+    padding: 3%;
+    box-shadow: 10px 10px 10px rgb(248, 244, 244);
+  }
+  .featuresImage {
+    width: 50%;
+    margin: 3%;
+    position: relative;
+  }
+  .featuresImage img {
+    width: 100%;
+    margin: auto 0;
+  }
   
