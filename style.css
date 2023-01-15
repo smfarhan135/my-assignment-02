@@ -184,6 +184,8 @@ body {
   .sponsorImage {
     display: flex;
     justify-content: space-around;
+    width: 500px;
+
   
     margin: 10% auto;
   }
@@ -198,6 +200,61 @@ body {
     text-align: center;
     padding: 5%;
     background-color: antiquewhite;
+  }
+  /* for web responsive  */
+  @media only screen and (max-width: 667px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .navbar {
+      background-color: aqua;
+      flex-direction: column;
+    }
+    .navbar h1 {
+      text-align: center;
+    }
+    .navbar div {
+      background-color: aqua;
+      width: 100%;
+      display: flex;
+    }
+    .quickfeature {
+      flex-direction: column-reverse;
+    }
+    .quickfeature div {
+      width: 100%;
+    }
+    .Allfeatures {
+      flex-direction: column;
+    }
+  
+    .featuresList {
+      width: 100%;
+    }
+    .projects {
+      flex-direction: column;
+    }
+    .project {
+      width: 100%;
+    }
+    .sponsorImage {
+      flex-direction: column;
+      margin: 10% auto;
+    }
+    .featuresImage {
+      width: 100%;
+    }
+  
+    .featuresImage img {
+      width: 95%;
+    }
+    .fcactssection {
+      flex-direction: column;
+    }
+    .fcactssection div {
+      width: 95%;
+      margin: 2%;
+    }
   }
   
   
