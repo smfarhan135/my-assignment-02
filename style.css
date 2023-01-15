@@ -58,7 +58,7 @@ body {
     padding: 1%;
     height: 70%;
   }
-  /* Feature list design */
+  /*Quick Feature Style */
   .quickfeature {
     display: flex;
     justify-content: space-between;
@@ -80,6 +80,7 @@ body {
     align-items: center;
     margin: auto 0;
   }
+  /* All Feature Style */
   .Allfeatures {
     margin: 20px auto;
     display: flex;
@@ -111,5 +112,38 @@ body {
   .featuresImage img {
     width: 100%;
     margin: auto 0;
+  }
+  /* Experience Style */
+  .experience {
+    background-color: chocolate;
+    color: aliceblue;
+    width: 20%;
+    text-align: center;
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+  }
+  .experience p {
+    font-size: 15px;
+  }
+  /* Projects Style */
+  .ourProjects h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .projects {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .project {
+    width: 24%;
+    box-shadow: 10px 10px 10px rgb(141, 127, 127);
+    margin: 3%;
+  }
+  .project img {
+    width: 90%;
+    height: 15rem;
+    border-radius: 20px;
   }
   
