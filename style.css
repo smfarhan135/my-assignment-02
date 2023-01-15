@@ -39,7 +39,7 @@ body {
   }
 
   #transe {
-    background-color: aliceblue;
+    background-color: antiquewhite;
     transition-property: background-color;
     transition-duration: 10s;
     transition-delay: 1s;
@@ -57,6 +57,7 @@ body {
     width: 100%;
     padding: 1%;
     height: 70%;
+    background-color: antiquewhite;
   }
   /*Quick Feature Style */
   .quickfeature {
@@ -145,5 +146,50 @@ body {
     width: 90%;
     height: 15rem;
     border-radius: 20px;
+  }
+  /* facts style */
+  .facts {
+    margin: 30px auto;
+    padding: 3%;
+  }
+  .facts h1 {
+    font-size: 25px;
+  }
+  
+  .fcactssection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .fcactssection div {
+    border: 2px solid red;
+    width: 20%;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(141, 127, 127);
+  }
+  .fcactssection img {
+    width: 25%;
+    height: 25%;
+    margin: 10px;
+  }
+  /* Sponsors Style */
+  .sponsores {
+    margin: 30px auto;
+    padding: 3%;
+    text-align: center;
+  }
+  .sponsores h1 {
+    font-size: 30px;
+  }
+  .sponsorImage {
+    display: flex;
+    justify-content: space-around;
+  
+    margin: 10% auto;
+  }
+  
+  .sponsorImage img {
+    margin: 5%;
+    padding: 5%;
   }
   
