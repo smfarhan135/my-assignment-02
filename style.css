@@ -192,4 +192,12 @@ body {
     margin: 5%;
     padding: 5%;
   }
+
+  /* Footer style */
+  footer p {
+    text-align: center;
+    padding: 5%;
+    background-color: antiquewhite;
+  }
+  
   
